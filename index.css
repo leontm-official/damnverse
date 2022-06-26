@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Smooch&family=Titan+One&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.hide {
+    display: none;
+}
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: #30ff00;
+    z-index: 999;
+}
+#elem1 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem3 {
+    position: absolute;
+    top: 200%;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem4 {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+.element {
+    background-color: #30ff00;
+    height: 100%;
+    font-size: 50px;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+}
+.icon img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 10%;
+    left: 2.5%;
+    border-radius: 50%;
+}
+.icon .titel {
+    font-size: 60px;
+    width: 80%;
+    height: 100%;
+    text-align: start;
+    left: 20%;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+    color: black;
+    position: absolute;
+}
+.nav-btn {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    width: 5%;
+    height: 100%;
+    background-color: #30ff00;
+    border: none;
+}
+.nav-btn img {
+    position: absolute;
+    top: 7.5%;
+    left: 7.5%;
+    width: 80px;
+    height: 80px;
+}
+.sektor1 {
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    width: 100%;
+    height: 45%;
+    background-color: black;
+}
+.sektor2 {
+    position: absolute;
+    top: 55%;
+    left: 0px;
+    width: 100%;
+    height: 45%;
+    background-color: #1a8900;
+}
+.sektor3 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 45%;
+    background-color: black;
+}
+.sektor4 {
+    position: absolute;
+    top: 145%;
+    left: 0px;
+    width: 100%;
+    height: 45%;
+    background-color: #1a8900;
+}
+.sektor-titel {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 50px;
+    font-family: "Smooch";
+}
+.sektor-titel a {
+    text-decoration: none;
+}
+.sektor-titel a:hover {
+    font-size: 60px;
+}
+#st1 {
+    color: #30ff00;
+}
+#st1 a {
+    color: #30ff00;
+}
+#st2 {
+    color: white;
+}
+#st2 a {
+    color: white;
+}
+#st3 {
+    color: #30ff00;
+}
+#st3 a {
+    color: #30ff00;
+}
+#st4 {
+    color: white;
+}
+#st4 a {
+    color: white;
+}
+.sektor-beschreibung {
+    position: absolute;
+    top:25%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    font-family: "Kdam Thmor Pro";
+    font-size: 40px;
+}
+#sb1 {
+    color: #30ff00;  
+}
+#sb2 {
+    color: white;
+}
+#sb3 {
+    color: #30ff00; 
+}
+#sb4 {
+    color: white;
+}
+.sektor-link {
+    position: absolute;
+    bottom: 15%;
+    left: 0px;
+    width: 100%;
+    font-size: 40px;
+    font-family: "Smooch";
+    text-align: center;
+}
+#sl1 {
+    color: #30ff00;
+}
+#sl1 a {
+    color: #30ff00;
+}
+#sl2 {
+    color: white;
+}
+#sl2 a {
+    color: white;
+}
+#sl3 {
+    color: #30ff00;
+}
+#sl3 a {
+    color: #30ff00;
+}
+#sl4 {
+    color: white;
+}
+#sl4 a {
+    color: white;
+}
+::-webkit-scrollbar {
+    appearance: none;
+}
+::-webkit-scrollbar-button {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-color: #30ff00;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #30ff00;
+}
+::-webkit-scrollbar-track {
+    width: 5px;
+    background-color: black;
+}
+/*Animations-Klassen*/ 
+/*Animationen*/
+/*Media Screen*/
+@media (max-width: 1350px) {
+    .icon .titel {
+        left: 30%;
+    }
+}
+@media (max-width: 1000px) {
+    .sektor-link {
+        bottom: 5%;
+    }
+}
+@media (max-width: 800px) {
+    .icon .titel {
+        left: 40%;
+    }
+    .sektor-link {
+        bottom: 2.5%;
+    }
+}
+@media (max-width: 750px) {
+    .sektor-beschreibung {
+        font-size: 30px
+    }
+}
+@media (max-width: 650px) {
+    .icon .titel {
+        left: 50%;
+    }
+}
+@media (max-width: 525px) {
+    .nav-btn {
+        right: 20%;
+    }
+    .element {
+        font-size: 40px;
+    }
+    .sektor-link{
+        font-size: 30px;
+    }
+}
+@media (max-width: 485px) {
+    .icon .titel {
+        left: 60%;
+        font-size: 40px;
+    }
+}
