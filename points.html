@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DamnPoints</title>
+    <link rel="stylesheet" href="points.css">
+    <link rel="icon" href="damnverse.png">
+</head>
+<body>
+    <nav>
+        <div class="bar">
+            <div class="icon">
+                <img onclick="window.location.reload()" class="webicon" src="damnverse.png">
+            </div>
+            <div class="elem1">
+                <a id="link" class="lpunkt" href="index.html">DamnVerse</a>
+            </div>
+            <div class="elem2">
+                <a id="link" class="lpunkt" href="stats.html">DamnStats</a>
+            </div>
+            <div class="elem3">
+                <a id="link" class="lpunkt" href="">DamnMods</a>
+            </div>
+            <div class="elem4">
+                <a id="link" class="lpunkt" href="">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="background">
+        <div id="hintergrund" class="hintergrund">
+            <div class="überschriftG">
+                DamnPoints Anmeldung
+            </div>
+            <div id="eins" class="überschrift">
+                Deine Email-Adresse hier ↓
+            </div>
+            <input placeholder="Deine Email-Adresse..." class="input" type="email" id="email">
+            <div id="zwei" class="überschrift">
+                Dein Nutzernamen hier ↓
+            </div>
+            <input placeholder="Dein Nutzername..." class="input" id="nutzername" type="text">
+            <div id="drei" class="überschrift">
+                Dein Passwort hier ↓
+            </div>
+            <input placeholder="Dein Passwort..." class="input" type="password" id="passwort">
+            <button id="btnEins" onclick="Vergessen()">Passwort vergessen?</button>
+            <button id="btnZwei" onclick="Prüfen()">Einloggen!</button>
+            <button id="btnDrei" onclick="Ändern()">Noch keinen Account? Melde dich jetzt an!</button>
+            </div>
+        </div>
+    </div>
+    <div class="nichtgeladen">
+        Coming soon...
+        <a class="LinkZurück" href="index.html">Zurück zum DamnVerse</a>
+    </div>
+    <script src="points.js"></script>
+</body>
+</html>
