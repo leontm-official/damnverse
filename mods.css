@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Smooch&family=Titan+One&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.hide {
+    display: none;
+}
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: #30ff00;
+    z-index: 999;
+}
+#elem1 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem3 {
+    position: absolute;
+    top: 200%;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+#elem4 {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #30ff00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+}
+.element {
+    background-color: #30ff00;
+    height: 100%;
+    font-size: 50px;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+}
+.icon img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 10%;
+    left: 2.5%;
+    border-radius: 50%;
+}
+.icon .titel {
+    font-size: 60px;
+    width: 80%;
+    height: 100%;
+    text-align: start;
+    left: 20%;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-family: "Smooch";
+    color: black;
+    position: absolute;
+}
+.nav-btn {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    width: 5%;
+    height: 100%;
+    background-color: #30ff00;
+    border: none;
+}
+.nav-btn img {
+    position: absolute;
+    top: 7.5%;
+    left: 7.5%;
+    width: 80px;
+    height: 80px;
+}
